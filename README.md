@@ -1,4 +1,4 @@
-# Toy Robot Simulator
+# Toy Robot Code Challenge
 
 ## Problem Statement
 
