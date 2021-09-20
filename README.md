@@ -1,4 +1,4 @@
-# Mr Robot - Toy Robot Simulator
+# Toy Robot Simulator
 
 ## Problem Statement
 
