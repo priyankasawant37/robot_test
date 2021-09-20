@@ -7,28 +7,28 @@ other obstructions on the table surface. The robot is free to roam around the su
 from falling to destruction. Any movement that would result in the robot falling from the table must be prevented,
 however further valid movement commands must still be allowed.
 
-##Folder Structure
+## Folder Structure
 
     ├── README.md
-    ├── requirements.text
-    ├── run.py
-    ├── testing
+    ├── requirements.text  
+    ├── run.py #takes input from stdin
+    ├── testing  
     │   ├── __init__.py
-    │   ├── test_cmds.py
-    │   └── test_robot.py
+    │   ├── test_cmds.py #tests for command validations
+    │   └── test_robot.py #tests for robot.py 
     ├── toy_robot
-    │   ├── command_parser.py
-    │   ├── config.py
+    │   ├── command_parser.py #reads and processes commands
+    │   ├── config.py #config varaibles
     │   ├── __init__.py
-    │   └── robot.py
+    │   └── robot.py #main Robot class
     └── venv
 
-##Constraints
+## Constraints
 
 The toy robot must not fall off the table during movement. This also includes the initial placement of the toy robot. Any
 move that would cause the robot to fall must be ignored.
 
-##Commands
+## Commands
 
 - PLACE :  It will put the toy robot on the table in position X,Y and facing NORTH, SOUTH, EAST or WEST.
 
