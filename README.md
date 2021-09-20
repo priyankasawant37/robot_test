@@ -63,12 +63,15 @@ To activate your virtual environment:
     source venv/bin/activate
 
 To install requirements:
+
     pip3 install -r requirements.text
 
 To run tests:
+
     pytest -v testing
 
 To provide input from stdin:
+
     python3 run.py
 
     PLACE 0,0,NORTH
