@@ -7,7 +7,7 @@ other obstructions on the table surface. The robot is free to roam around the su
 from falling to destruction. Any movement that would result in the robot falling from the table must be prevented,
 however further valid movement commands must still be allowed.
 
-##Folder Structure:
+##Folder Structure
 
     ├── README.md
     ├── requirements.text
@@ -23,7 +23,8 @@ however further valid movement commands must still be allowed.
     │   └── robot.py
     └── venv
 
-##Constraints:
+##Constraints
+
 The toy robot must not fall off the table during movement. This also includes the initial placement of the toy robot. Any
 move that would cause the robot to fall must be ignored.
 
